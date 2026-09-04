@@ -42,7 +42,7 @@ public class AIServlet extends HttpServlet {
             
             // UPDATED: Using the active Llama 3.1 Instant model
             String jsonPayload = "{"
-                    + "\"model\": \"llama-3.1-8b-instant\","
+                    + "\"model\": \"openai/gpt-oss-20b","
                     + "\"messages\": ["
                     + "{\"role\": \"system\", \"content\": \"You are Omni-AI, a highly advanced, professional, and concise system concierge for a software agency named Omni Mavens. Keep your answers brief and formatting clean.\"},"
                     + "{\"role\": \"user\", \"content\": \"" + safeMessage + "\"}"

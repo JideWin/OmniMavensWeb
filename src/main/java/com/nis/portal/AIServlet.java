@@ -17,7 +17,12 @@ import javax.servlet.http.HttpServletResponse;
 public class AIServlet extends HttpServlet {
 
     // IMPORTANT: Paste your Groq API Key here!
-  String GROQ_API_KEY = "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";
+ // GROQ API KEY
+String GROQ_API_KEY = System.getenv("GROQ_API_KEY");
+
+if (GROQ_API_KEY == null || GROQ_API_KEY.isBlank()) {
+    throw new ServletException("GROQ_API_KEY is not configured");
+}
     
     // Groq's OpenAI-compatible endpoint
     private static final String GROQ_URL = "https://api.groq.com/openai/v1/chat/completions";

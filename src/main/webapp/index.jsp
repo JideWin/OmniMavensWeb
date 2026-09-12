@@ -215,7 +215,6 @@
         <div class="marquee-container">
             <div class="marquee-content">
                 <span class="client-badge"><i class="bi bi-cpu me-2" style="color: var(--aws-blue);"></i> Generative AI Partners</span>
-                <span class="client-badge"><i class="bi bi-compass me-2" style="color: var(--aws-purple);"></i> NIS Ogun State</span>
                 <span class="client-badge"><i class="bi bi-bank me-2" style="color: var(--aws-blue);"></i> Government Agencies</span>
                 <span class="client-badge"><i class="bi bi-globe me-2" style="color: var(--aws-cyan);"></i> Global Enterprises</span>
                 <span class="client-badge"><i class="bi bi-cpu me-2" style="color: var(--aws-blue);"></i> Generative AI Partners</span>
